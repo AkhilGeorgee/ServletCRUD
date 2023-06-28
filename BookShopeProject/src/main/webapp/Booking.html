@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Book Shop</title>
+<link rel="stylesheet" href="Booking.css"/>
+</head>
+<body>
+ <div class="controller">
+        <form method="post" action="shop">
+           
+                <div class="head_div">
+                    <h1>Book Shop</h1>
+                </div>
+                <div class="username_div">
+            <label>UserName </label><input type="text" name="name" placeholder="Enter your UserName..." required="required"/>
+            </div>
+            <div class="password_div">
+                <label>Password </label> <input type="password" name="password" required="required" placeholder="Enter your password..."/>
+            </div>
+            <div class="quantity_div">
+                <label>Quantity </label><input type="number" name="quantity" required="required" placeholder="Enter your quantity..."/>
+            </div>
+            <div class="select_div">
+                <label>Book Name </label>
+                <select name="bookname">
+                    <option >select you'r book...</option>
+                    <option value="The Iliad">The Iliad</option>
+                    <option value="Don Quixote">Don Quixote</option>
+                    <option value="Beloved">Beloved</option>
+                    <option value="Ulysse">Ulysses</option>
+                    <option value="Invisible Man">Invisible Man</option>
+                    <option value="Jane Eyre">Jane Eyre</option>
+                    <option value="The Hobbit">The Hobbit</option>
+                    <option value="Anna Karenin">Anna Karenina</option>
+                    <option value="Frankenstein">Frankenstein</option>
+                    <option value="Wuthering Heights">Wuthering Heights</option>
+                </select>
+
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <a href="BookDetails" style="color: aqua;">View Table</a>
+            </div>
+            
+           
+        </form>
+    </div>
+</body>
+</html>
